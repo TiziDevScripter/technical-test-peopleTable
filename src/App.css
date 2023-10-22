@@ -1,0 +1,36 @@
+.table-card{
+    width: 100%;
+}
+.table-card .title{
+    font-weight: 600;
+}
+.table-card .title span{
+    background-color: #0f0;
+    color: #111;
+    padding: .3em;
+    border-radius: 50%;
+}
+
+.table-card .table-control{
+    display: flex;
+    gap: 1em;
+    margin: 1em 0;
+}
+.table-card .table-control button,
+.table-card .table-control input{
+    padding: .5em;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.table-card .table-control button:hover{
+    background-color: #000;
+    color: #0f0;
+}
+.table-card .table-control input:focus{
+    background-color: #000;
+    color: #0f0;
+}
+/* .table-card .table-control button{} */
